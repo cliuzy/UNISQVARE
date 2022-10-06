@@ -1,0 +1,57 @@
+.unisquare-btn {
+  border-radius: 12px;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+button {
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+button:hover {
+  opacity: 0.5;
+}
+nav li {
+  display: flex;
+}
+nav li img {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+li button {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+li i {
+  padding: 10px;
+}
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+#sidebar p {
+  font-size: smaller;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body-content {
+  margin-left: 200px;
+  background-color: red;
+}
+.uniben-head {
+  height: 300px;
+  background-image: url("./UNISQVARE/images/colorful.jpg");
+}
+
+@media screen and (max-width: 990px) {
+  .body-content {
+    background-color: black;
+    margin-left: 100px;
+  }
+}

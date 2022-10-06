@@ -1,0 +1,145 @@
+a.unisquare-btn {
+  border-radius: 12px;
+  width: 100px;
+  height: 50px;
+}
+body {
+  overflow-x: hidden;
+}
+button {
+  border-radius: 10px;
+}
+button:hover {
+  opacity: 0.5;
+}
+nav li {
+  display: flex;
+}
+nav li :hover {
+  color: #1e9af1;
+}
+nav li img {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+li button {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+li i {
+  padding: 10px;
+}
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+#sidebar p {
+  font-size: smaller;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body-content {
+  margin-left: 200px;
+  background-color: azure;
+}
+.uniben-head {
+  height: 350px;
+  background-image: url("./UNISQVARE/images/colorful.jpg");
+  margin-bottom: 30px;
+}
+.uniben-head-btn {
+  position: relative;
+  top: 250px;
+  left: 70px;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #1e9af1;
+  margin-right: 10px;
+}
+.uniben-post {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.uniben-post p {
+  padding-left: 15px;
+  position: relative;
+  left: -120px;
+}
+.uniben-btn button {
+  position: relative;
+  left: -500px;
+  top: 55px;
+  color: #fff;
+  background-color: #1e9af1;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+.widgets__input {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.widgets__input input {
+  border-radius: 12px;
+}
+.widget-bar {
+  padding-top: 90px;
+}
+.widget-bar div {
+  height: 70px;
+  border: 2px solid;
+  border-radius: 12px;
+  margin-top: 30px;
+  background-image: url("/UNISQVARE/images/car.jpg");
+  background-position: 100%;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.widget-bar b {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .body-content {
+    background-color: azure;
+    margin-left: 100px;
+  }
+
+  .uniben-head-btn {
+    width: 50px;
+    height: 25px;
+    font-size: smaller;
+    left: 10px;
+  }
+  .uniben-btn button {
+    left: -200px;
+    width: 70px;
+    height: 25px;
+  }
+  .uniben-post {
+    font-size: smaller;
+  }
+  .uniben-post p {
+    position: relative;
+    left: 5px;
+  }
+  .uniben-post i {
+    padding-left: 50px;
+  }
+  #sidebar {
+    padding: 10px;
+    max-height: 100vh;
+  }
+}
